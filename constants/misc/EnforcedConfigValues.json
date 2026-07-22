@@ -183,11 +183,31 @@
     {
       "enforcedValues": [
         {
-          "path": "commands.transferCooldown",
+          "path": "misc.commands.betterWiki.useFandom",
           "value": false
         }
       ],
-      "affectedVersion": "9.9.9"
+      "affectedVersion": "6.16.0",
+      "extraMessage": "No free traffic for Fandom, update your mod"
+    },
+    {
+      "enforcedValues": [
+        {
+          "path": "misc.commands.betterWiki.enabled",
+          "value": true
+        },
+        {
+          "path": "misc.commands.betterWiki.useUnofficial",
+          "value": true
+        },
+        {
+          "path": "misc.commands.betterWiki.useIndependent",
+          "value": true
+        }
+      ],
+      "minimumAffectedVersion": "6.17.0",
+      "affectedVersion": "7.99.0",
+      "extraMessage": "Official wiki is dead"
     }
   ]
 }

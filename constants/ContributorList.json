@@ -202,12 +202,17 @@
       "display_name": "oxsss"
     },
     "77602086-ed7f-4b34-b756-3c6cef4d3722": {
-      "suffix": "§d§l\uD83D\uDC3D",
+      "componentSuffix": {"atlas":"items", "color": "white", "sprite":"item/porkchop"},
       "display_name": "Piggered"
     },
     "02dc5178-f7ec-4254-8401-1a57a7442a2f": {
       "suffix": "§d:3",
       "display_name": "PolarBlunk"
+    },
+    "5b0dfa5b-c2a6-45d3-9cab-b354c10761eb": {
+      "suffix": "§d:3",
+      "componentSuffix": [{"atlas":"gui", "color": "white", "sprite":"skyhanni:trans"}, {"text":" "}, {"atlas":"gui", "color": "white", "sprite":"skyhanni:dog"}],
+      "display_name": "PuppyGirlAbora"
     },
     "93234e1a-ca82-4bd7-a518-8aa89d551979": {
       "suffix": "§5:3",
@@ -277,7 +282,7 @@
     },
     "681c11ba-9f1a-4e61-99be-8f8a1157fde0": {
       "suffix": "§d:3",
-      "componentSuffix": {"atlas":"gui", "color": "white", "sprite":"skyhanni:plead"},
+      "componentSuffix": [{"atlas":"gui", "color": "white", "sprite":"skyhanni:plead"}, {"atlas":"gui", "color": "white", "sprite":"skyhanni:gay"}],
       "display_name": "ThePleader"
     },
     "88c95c3b-9d23-4d6a-bcdc-f9ad77bec7b6": {

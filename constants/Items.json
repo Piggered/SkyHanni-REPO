@@ -115,7 +115,7 @@
     ],
     "endcap_enchants": {
       "//": {
-          "1": "DEPRECATED: Use endcap_enchants_new instead. This can be removed once SkyBlock drops 1.21.11 support."
+        "1": "DEPRECATED: Use endcap_enchants_new instead. This can be removed once SkyBlock drops 1.21.11 support."
       },
       "bane_of_arthropods": {
         "required_level": 6,
@@ -124,6 +124,10 @@
       "charm": {
         "required_level": 5,
         "endcap_item": "CHAIN_END_TIMES"
+      },
+      "distant_echo": {
+        "required_level": 5,
+        "endcap_item": "DISTANT_ECHO"
       },
       "ender_slayer": {
         "required_level": 6,
@@ -181,6 +185,12 @@
           "endcap_item": "ENDSTONE_IDOL"
         }
       ],
+      "forest_pledge": [
+        {
+          "required_level": 5,
+          "endcap_item": "WATER_HYACINTH"
+        }
+      ],
       "frail": [
         {
           "required_level": 6,
@@ -209,6 +219,12 @@
         {
           "required_level": 5,
           "endcap_item": "GOLDEN_BOUNTY"
+        }
+      ],
+      "scuba": [
+        {
+          "required_level": 5,
+          "endcap_item": "VIBRANT_CORAL"
         }
       ],
       "smite": [
@@ -358,12 +374,6 @@
           "required_level": 6,
           "endcap_item": "FATEFUL_STINGER"
         }
-      ],
-      "scuba": [
-        {
-          "required_level": 5,
-          "endcap_item": "VIBRANT_CORAL"
-        }
       ]
     }
   },
@@ -437,7 +447,11 @@
     "INKLING": "NIGHT_SQUID",
     "LOTUSFISH": "LOTUS_FISH",
     "SEASHINE": "SEA_SHINE",
-    "WITHER_SPECTRE": "WITHER_SPECTER"
+    "WITHER_SPECTRE": "WITHER_SPECTER",
+    "FIELD_MOUSE": "PEST",
+    "EARTHWORM": "TERMITE",
+    "ZEALOT_BRUISER": "BRUISER",
+    "BEETLE": "CROPEETLE"
   },
   "distance_enchant_data": {
     "LEGION": {
